@@ -29,6 +29,59 @@ public class Sandbox {
         // TODO code application logic here
         System.out.println("Hello my Sandbox in NetBeans)");
         System.out.println("My first change save to git)");
+        
+        int a = 5;
+        int b = 5;
+        
+        boolean results;
+        results = (a==b);
+        
+        System.out.println();
+        System.out.println("Equality: a==b " + (a==b));
+        System.out.println("Equality: a!=b " + (a!=b));
+        System.out.println("Equality: !(a==b) " + !(a==b));
+        
+        
+        System.out.println();
+        System.out.println("Relational: a<b " + (a<b));
+        System.out.println("Relational: a<=b " + (a<=b));
+        System.out.println("Relational: a>b " + (a>b));
+        System.out.println("Relational: a>=b " + (a>=b));
+         
+        System.out.println();
+        System.out.println("Logical: !(a<=b) " + !(a<=b));
+        System.out.println("Logical: T && T "  + (true && true));
+        System.out.println("Logical: T && F "  + (true && false));
+        System.out.println("Logical: F && T "  + (false && true));
+        System.out.println("Logical: T || T "  + (true || true));
+        System.out.println("Logical: T || F "  + (true || false));
+        System.out.println("Logical: F || F "  + (false || false));
+        
+        
+        System.out.println();
+        //a = 2;
+        if (a<b) {
+            System.out.println("a is less than b");
+            if (a==2) {
+                System.out.println("a is equal to 2");
+            }
+        } else if (a<0) {
+            System.out.println("a is less than zero");
+        } else {
+            System.out.println("a is not less than b");
+        }
+        System.out.println("Outside the if");
+        
+        
+        System.out.println();
+        String result;
+        result = (a==b)?"TRUE":"FALSE";
+        /* the previus assignment is equivalent to the following if/else
+        */
+        System.out.println("Is a equal to b? " + (a==b));
+        System.out.println("Is a equal to b? " + result);
+        
+        
     }
     
 }
